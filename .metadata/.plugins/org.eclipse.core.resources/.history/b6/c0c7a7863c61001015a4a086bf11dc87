@@ -1,0 +1,14 @@
+package com.day17;
+
+public class Test11 {
+	
+	public boolean fileCopy(String file1,String file2) {
+		
+		
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}

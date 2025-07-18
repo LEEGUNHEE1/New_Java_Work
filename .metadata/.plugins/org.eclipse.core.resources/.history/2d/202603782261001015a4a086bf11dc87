@@ -1,0 +1,32 @@
+package com.day17;
+
+class MyThread implements Runnable{
+
+	private int bank = 10000;//은행잔고
+	
+	private int getBank() {//잔액 확인
+		return bank;
+	}
+	
+	private int drawMoney(int m) {
+		bank=bank-m; //bank-=m; //인출
+		return m;	//인출 금액
+	}
+		
+	@Override
+	public void run() {
+		
+		
+		
+	}
+	
+	
+}
+
+public class Test4 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

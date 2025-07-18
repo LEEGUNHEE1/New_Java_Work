@@ -1,0 +1,58 @@
+package com.day17;
+
+//스레드 생명 주기
+
+class MyThread3 extends Thread{
+	
+	@Override
+	public void run() {
+		try {
+			
+			System.out.println("스레드 시작...");
+			
+			System.out.println("우선순위: " + getPriority());
+			System.out.println("스레드 이름: " + getName());
+			
+			//0.5쉼
+			sleep(500);
+			
+			//우선순위 변경
+			setPriority(2);
+			System.out.println("변경된 우선순위: " + getPriority());
+			
+			System.out.println("스레드 종료");
+			
+		} catch (Exception e) {
+			
+		}
+	}
+	
+}
+
+public class Test3 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

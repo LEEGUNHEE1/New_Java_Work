@@ -1,0 +1,22 @@
+package com.day17;
+
+//스레드 우선순위
+
+class MyThread1 extends Thread{
+	
+	private String name;
+	
+	public MyThread1(String name) {
+		this.name = name;
+	}
+	
+	
+}
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

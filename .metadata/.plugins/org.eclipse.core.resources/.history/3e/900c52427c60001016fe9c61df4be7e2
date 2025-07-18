@@ -1,0 +1,27 @@
+package com.day16;
+
+class MyThread2 implements Runnable{
+
+	private int num;
+	private String name;
+	
+	public MyThread2(int num,String name) {
+		this.num = num;
+		this.name = name; 
+	}
+	
+	@Override
+	public void run() {
+	}
+	
+	
+	
+}
+
+public class Test9 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

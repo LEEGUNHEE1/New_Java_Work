@@ -1,0 +1,27 @@
+package com.day18;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+import java.util.Hashtable;
+
+public class Test2 {
+
+	public static void main(String[] args) throws Exception {
+
+		FileInputStream fis = 
+				new FileInputStream("c:\\doc\\outer.txt");
+		ObjectInputStream ois = 
+				new ObjectInputStream(fis);
+		
+		Hashtable<String, String> h = 
+				(Hashtable<String, String>)ois.readObject();
+				
+		
+		
+		
+	}
+
+}
+
+
+

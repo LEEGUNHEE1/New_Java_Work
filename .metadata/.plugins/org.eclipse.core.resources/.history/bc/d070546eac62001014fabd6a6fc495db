@@ -1,0 +1,23 @@
+package com.score4;
+
+import java.util.List;
+
+public class Score {
+	
+	private List<ScoreVO> lists;
+	
+	
+	public void input() {
+		
+	}
+	
+	public void print() {
+		
+	}
+	
+	public void writeFile() {
+		
+	}
+	
+
+}

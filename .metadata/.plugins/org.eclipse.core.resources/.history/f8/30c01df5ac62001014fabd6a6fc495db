@@ -1,0 +1,29 @@
+package com.score4;
+
+import java.io.File;
+import java.util.List;
+
+public class Score {
+	
+	private List<ScoreVO> lists;
+	
+	//c:\\java\\work\\demo
+	private String path = System.getProperty("user.dir");	
+	File f = new File(path,"\\data\\score.txt");
+	
+	
+	
+	public void input() {
+		
+	}
+	
+	public void print() {
+		
+	}
+	
+	public void writeFile() {
+		
+	}
+	
+
+}

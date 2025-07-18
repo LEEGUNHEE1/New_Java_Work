@@ -1,0 +1,19 @@
+package com.score4;
+
+public class Score {
+	
+	
+	public void input() {
+		
+	}
+	
+	public void print() {
+		
+	}
+	
+	public void writeFile() {
+		
+	}
+	
+
+}

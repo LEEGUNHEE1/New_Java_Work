@@ -1,0 +1,19 @@
+package com.day17;
+
+class MyThread extends Thread{
+	
+	
+}
+
+public class Member {
+
+	public static void main(String[] args) {
+
+		
+		
+		
+		
+		
+	}
+
+}

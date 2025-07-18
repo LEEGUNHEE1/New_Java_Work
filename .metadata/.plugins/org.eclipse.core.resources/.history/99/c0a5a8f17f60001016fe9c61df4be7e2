@@ -1,0 +1,16 @@
+package com.day16;
+
+import java.util.Calendar;
+
+public class Test10 {
+
+	public static void main(String[] args) {
+		
+		Calendar now = Calendar.getInstance();
+		
+		System.out.printf("%1$tF %1$tT",now);
+		
+
+	}
+
+}

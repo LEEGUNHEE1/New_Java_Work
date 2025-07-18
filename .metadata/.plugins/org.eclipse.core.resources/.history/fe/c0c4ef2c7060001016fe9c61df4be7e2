@@ -1,0 +1,49 @@
+package com.day16;
+
+import java.util.Scanner;
+
+class MyExcep{
+	
+	public void inputformat(String str) throws Exception {
+		
+		
+		
+		
+	}
+	
+}
+
+public class Test7 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		String str;
+		
+		MyException auth = new MyException();
+		
+		try {
+			
+			System.out.print("문자열?");//abcd456
+			str = sc.next();
+			
+			//문자열 검사
+			auth.inputformat(str);
+			
+			System.out.println(str);
+			
+			
+		} catch (Exception e) {
+			System.out.println(e.toString());
+		}
+		
+		
+	}
+
+}
+
+
+
+
+

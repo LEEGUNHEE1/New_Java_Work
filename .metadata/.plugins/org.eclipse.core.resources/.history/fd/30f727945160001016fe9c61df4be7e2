@@ -1,0 +1,10 @@
+package com.day16;
+
+//예외처리
+public class Test3 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

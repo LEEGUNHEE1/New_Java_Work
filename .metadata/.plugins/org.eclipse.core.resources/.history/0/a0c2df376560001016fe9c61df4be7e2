@@ -1,0 +1,31 @@
+package com.excep;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class ExcepMain {
+
+	public static void main(String[] args) {
+		
+		BufferedReader br = new BufferedReader(
+				new InputStreamReader(System.in));
+		
+		String str;
+		double num1,num2,result;
+		
+		try {
+			
+			
+			
+			
+		} catch (Exception e) {
+			System.out.println(e.toString());
+		}
+		
+		
+		
+		
+
+	}
+
+}

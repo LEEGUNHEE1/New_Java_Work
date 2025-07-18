@@ -1,0 +1,15 @@
+package com.day16;
+
+class MyException extends Exception{
+	
+	
+	
+}
+
+public class Test6 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

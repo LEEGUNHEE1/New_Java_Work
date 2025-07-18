@@ -1,0 +1,11 @@
+package com.day17;
+//데몬스레드
+//다른스레드에 도움을 주는 스레드로 
+//메인스레드가 종료가 되면 프로세스가 종료 된다
+public class Test2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

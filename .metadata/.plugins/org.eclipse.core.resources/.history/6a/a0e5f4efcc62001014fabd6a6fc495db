@@ -1,0 +1,90 @@
+package com.day19;
+
+import java.awt.BorderLayout;
+import java.awt.Frame;
+import java.awt.TextArea;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class ServerTest extends Frame 
+	implements ActionListener,Runnable{
+
+	private static final long serialVersionUID = 1L;
+	
+	private TextArea ta = new TextArea();
+	private TextField tf = new TextField();
+	private ServerSocket ss = null;
+	private Socket sc = null;
+	
+	public ServerTest() {
+		
+		add(ta,BorderLayout.CENTER);
+		add(tf,BorderLayout.SOUTH);
+		
+		tf.addActionListener(this);
+		
+		addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				System.exit(0);
+			}
+		});
+		
+		setTitle("채팅 서버");
+		setSize(300, 400);
+		setVisible(true);	
+		
+	}	
+
+	public static void main(String[] args) {
+		new ServerTest().serverStart();
+		
+	}
+	
+	public void serverStart() {
+		
+		try {
+			ss = new ServerSocket(7777);
+			ta.setText("서버 시작!!!");
+			
+			//클라이언트가 접속해오기를 기다림
+			sc = ss.accept();
+			
+			//상대가 보내는 메세지를 받음
+			Thread th = new Thread(this);
+			th.start();
+			
+			
+			
+		} catch (Exception e) {
+			
+		}
+		
+		
+	}
+
+	@Override
+	public void run() {
+		//메세지를 받는 코딩
+		
+		
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		//메세지를 보내는 코딩
+		
+		
+	}
+
+}
+
+
+
+
+

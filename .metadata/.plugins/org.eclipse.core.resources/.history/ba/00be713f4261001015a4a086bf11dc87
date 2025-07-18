@@ -1,0 +1,27 @@
+package com.day17;
+
+import java.io.File;
+
+//File
+//파일및 폴더를 관리하는 클래스
+//파일의 정보를 제공해주지만
+//파일을 만들거나 내용을 수정할 수는 없다
+public class Test13 {
+
+	public static void main(String[] args) {
+		
+		File f = new File("c:\\doc\\test.txt");
+		
+		if(!f.exists()) {
+			System.out.println("파일이 없다");
+			return;
+		}
+		
+		
+		
+		
+		
+
+	}
+
+}

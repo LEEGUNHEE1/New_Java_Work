@@ -1,0 +1,20 @@
+package com.day17;
+
+public class Test10 {
+
+	public static void main(String[] args) {
+
+		//원본파일? c:\\doc\\test.txt
+		//대상파일? c:\\doc\\test1.txt
+		//복사완료!
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

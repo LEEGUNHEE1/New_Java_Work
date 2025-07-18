@@ -1,0 +1,23 @@
+package com.day17;
+
+import java.io.File;
+
+public class Test11 {
+	
+	public boolean fileCopy(String file1,String file2) {
+		
+		File f = new File(file1);
+		
+		if(!f.exists()) {
+			
+		}
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}
