@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class FileClient {
 	public static void main(String[] args) {
 		int port = 7777;
-		String host = "192.168.0.34";
+		String host = "192.168.0.18";
 		
 		Socket sc= null;
 		ObjectOutputStream oos = null;

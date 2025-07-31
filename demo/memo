@@ -343,4 +343,14 @@ public int b = 20;// Instance 변수
 //DOM Document 객체를 생성하기 위해 팩토리를 생성
 
 
+
+//DB에 데이터 넣는 세가지 방법
+//Statement
+//Preparedstatement - 제일 많이씀, 쿼리 정상적인지 검사함
+//Callablestatement - procedure가 만들어져있을때 사용
+
+//DB연결하는 단계
+//1.DriverManager가 Connection을 생성
+//2.Connection이 statement를 생성
+//3.statement가 SQL쿼리를 실행
 	
