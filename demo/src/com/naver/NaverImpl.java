@@ -1,6 +1,6 @@
 package com.naver;
 
-import java.util.ArrayList;
+import java.util.ArrayList; 
 
 import java.util.Iterator;
 import java.util.List;
@@ -153,12 +153,12 @@ public class NaverImpl implements Naver {
 		Iterator<NaverVO> it = lists.iterator();
 
 		System.out.print("검색할 회원 ID : ");
-		String name = sc.next();
+		String id = sc.next();
 
 		boolean flag = false;
 		while (it.hasNext()) {
 			NaverVO vo = it.next();
-			if (name.equals(vo.getName())) {
+			if (id.equals(vo.getId())) {
 				System.out.printf("\n회원 이름 : %s 회원 ID : %s", vo.getName(), vo.getId());
 				System.out.println();
 				System.out.println();
